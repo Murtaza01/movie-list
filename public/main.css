@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f3f7ec;
+  min-height: 100vh;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+
+.movies_container {
+  width: 12rem;
+  height: 8rem;
+  background-color: #006989;
+  display: grid;
+  place-items: center;
+  border-radius: 0.4rem;
+}
+
+.movie_btn {
+  border: 1px solid #000;
+  border-radius: 0.3rem;
+  background-color: #e88d67;
+  font-size: 1.5rem;
+  padding: 0.1rem 1.7rem;
+  color: #eee;
+  box-shadow: 1px 1px 5px 2px #00000050;
+}
